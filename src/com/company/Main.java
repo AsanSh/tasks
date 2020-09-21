@@ -21,14 +21,16 @@ public class Main {
             for (int j = 0; j < arr.length; j++) {
                 if (arr[i] > arr[j] + 1) {
                     max = arr[i];
-                }if (arr[i] < arr[j] - 1) {
+                }
+                if (arr[i] < arr[j] - 1) {
                     min = arr[i];
 
                 }
             }
 
 
-        } System.out.println(min);
+        }
+        System.out.println(min);
         System.out.println(max);
     }
 }
