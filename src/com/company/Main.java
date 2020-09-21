@@ -24,11 +24,8 @@ public class Main {
                 }
                 if (arr[i] < arr[j] - 1) {
                     min = arr[i];
-
                 }
             }
-
-
         }
         System.out.println(min);
         System.out.println(max);
